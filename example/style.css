@@ -1,0 +1,60 @@
+/* Styles go here */
+
+html {
+}
+
+body {
+  background: #fff;
+}
+.horizontalScroll {
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 500px;
+border: solid 2px outset;
+    float: left;
+    margin-right: 20px;
+position: relative;
+}
+.verticalScroll {
+    width: 200px;
+  height: 300px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+border: solid 2px outset;
+  float: left;
+  position: relative;
+margin-right: 20px;
+}
+.bothScroll {
+    width: 300px;
+  height: 300px;
+  overflow: scroll;
+  border: solid 2px outset;
+  float: left;
+  position: relative;
+margin-right: 20px;
+}
+.bothScroll p {
+    width: 400px;
+}
+.display {
+    width: 120px;
+    text-align: center;
+    padding: 15px;
+}
+.top {
+    background-color: green;
+}
+.bottom {
+    background-color: lightblue;
+}
+.right {
+    background-color: yellow;
+}
+.left {
+    background-color: grey;
+}
+.btwn {
+    background-color: pink;
+}
